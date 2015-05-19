@@ -1,0 +1,79 @@
+{
+    "Rezepte" : [
+        {
+            "Titel" : "Spaghetti Bolognese",
+            "Beschreibung": "Spaghetti nach deutscher Art",
+            "Bild" : "images/spaghette.gif",
+            "Zutaten" : ["Spaghetti", "Salz", "Tomaten", "Wasser", "Fleisch"],
+            "Anleitung": [  "Wasser in topf",
+                            "Topf auf Platte",
+                            "Platte anstellen",
+                            "Salz rein",
+                            "Spaghetti rein",
+                            "Fleisch rein",
+                            "Tomtaten zugeben",
+                            "köcheln lassen"
+                        ],
+            "Require": [
+                {"source": "water", "target": ["pot1", "pot2"]},
+                {"source": ["pot1", "pot2"], "target": ["Plate1", "Plate2", "Plate3", "Plate4"]},
+                {"source": ["Plate1", "Plate2", "Plate3", "Plate4"], "target": "ON"},
+                {"source": "Salz", "target": ["pot1", "pot2"]},
+                {"source": "Spaghetti", "target": ["pot1", "pot2"]},
+                {"source": "Fleisch", "target": ["pot1", "pot2"]},
+                {"source": "tomate", "target": ["pot1", "pot2"]},
+                {"source": ["pot1", "pot2"], "target": 100}
+            ]
+        },
+        {
+            "Titel" : "Pfannkuchen",
+            "Beschreibung": "Pfannkuchen lecker lecker",
+            "Bild" : "images/pfannkuchen.gif",
+            "Zutaten" : ["Eier", "Milch", "Mehl", "Zucker", "Öl"],
+            "Anleitung": [  "Öl in die Pfanne",
+                            "Pfanne auf den Hert stellen",
+                            "Hert anstellen",
+                            "Eier in die Pfanne",
+                            "Milch in die Pfanne",
+                            "Mehl in die Pfanne",
+                            "Pfannkuchen braten lassen"
+                            ],
+            "Require": [
+                {"source": "Oel", "target": ["pan1"]},
+                {"source": ["pan1"], "target": ["Plate1", "Plate2", "Plate3", "Plate4"]},
+                {"source": ["Plate1", "Plate2", "Plate3", "Plate4"], "target": "ON"},
+                {"source": "Eier", "target": ["pan1"]},
+                {"source": "Milch", "target": ["pan1"]},
+                {"source": "Mehl", "target": ["pan1"]},
+                {"source": ["pan1"], "target": 100}
+            ]
+        },
+        {
+            "Titel" : "Milchreis",
+            "Beschreibung": "Einfacher Milchreis",
+            "Bild" : "images/Milchreis.gif",
+            "Zutaten" : ["Reis", "Zucker", "Wasser", "Milch", "Zimt"],
+            "Anleitung": [  "Wasser in topf",
+                            "Topf auf Platte",
+                            "Hert anstellen",
+                            "Salz rein",
+                            "Reis rein",
+                            "Milch rein",
+                            "Zucker dazugeben",
+                            "Zimt dazugeben",
+                            "Köcheln lassen"
+            ],
+            "Require": [
+                {"source": "water", "target": ["pot1", "pot2"]},
+                {"source": ["pot1", "pot2"], "target": ["Plate1", "Plate2", "Plate3", "Plate4"]},
+                {"source": ["Plate1", "Plate2", "Plate3", "Plate4"], "target": "ON"},
+                {"source": "Salz", "target": ["pot1", "pot2"]},
+                {"source": "Reis", "target": ["pot1", "pot2"]},
+                {"source": "Milch", "target": ["pot1", "pot2"]},
+                {"source": "Zucker", "target": ["pot1", "pot2"]},
+                {"source": "Zimt", "target": ["pot1", "pot2"]},
+                {"source": ["pot1", "pot2"], "target": 100}
+            ]
+        }
+    ]
+}

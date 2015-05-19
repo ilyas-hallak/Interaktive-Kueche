@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>K&uuml;chensimulation</title>
+		
+		<script>
+			window.onload = function(){
+				var k = new Kitchen('kitchenCanvas');
+			}
+		</script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+    </head>
+	<body>
+        <h2 id="rezepte-head"></h2>
+        <ul id="Rezepte-list"></ul>
+        <div id="Rezepte-details" class="hidden"></div>
+        <div id="message"></div>
+        <div id="HelpLayer">
+            <img src="images/fragezeichen.png" alt="fragezeichen" />
+            <div id="helpContent">
+                <img src="images/hilfe_layer.png" />
+            </div>
+        </div>
+		<div id="wrapper">
+			<canvas id="kitchenCanvas" width="1000" height="600">
+				Your Browser does not support the canvas element!
+			</canvas>
+		</div>
+
+         <div id="co"></div>
+
+		<script type="text/javascript" src="js/Kitchen.js"></script>
+        <script type="text/javascript" src="js/Stage.js"></script>
+		<script type="text/javascript" src="js/VisualRenderObject.js"></script>
+        <script type="text/javascript" src="js/VisualRenderAnimation.js"></script>
+        <script type="text/javascript" src="js/Ajax.js"></script>
+
+        <script type="text/javascript" src="js/SoundManager.js"></script>
+        <script type="text/javascript" src="js/Pot.js"></script>
+		<script type="text/javascript" src="js/Ingredient.js"></script>
+        <script type="text/javascript" src="js/Button.js"></script>
+        <script type="text/javascript" src="js/Plate.js"></script>
+        <script type="text/javascript" src="js/Door.js"></script>
+        <script type="text/javascript" src="js/Faucet.js"></script>
+        <script type="text/javascript" src="js/Hood.js"></script>
+
+        <script type="text/javascript" src="js/RezeptManager.js"></script>
+        <script type="text/javascript" src="js/ResourceManager.js"></script>
+        <script type="text/javascript" src="js/MessageManager.js"></script>
+        <script type="text/javascript" src="js/VideoManager.js"></script>
+        <script type="text/javascript" src="js/Help.js"></script>
+    </body>
+</html>

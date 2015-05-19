@@ -1,0 +1,393 @@
+{
+    "Resources":
+    [
+        {
+            "Obj": "Hood",
+            "sx": 310,
+            "sy": 95,
+            "w": 149,
+            "h": 173,
+            "imgPath": "images/Haube.png",
+            "zOrder": 5,
+            "draggable": true,
+            "name": "haube"
+        },
+        {
+            "Obj" : "Pot",
+            "sx": 510,
+            "sy": 99,
+            "w": 69,
+            "h": 66,
+            "imgPath": "images/pot.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "pot1",
+            "animObj" : {
+                "image": {
+                    "tileWidth": 71,
+                    "tileHeight": 66,
+                    "imgWidth": 565,
+                    "imgHeight": 66
+                },
+                "animations": {
+                    "default": {"seq":[0], "loop": false},
+                    "cold": {"seq": [0], "loop": false},
+                    "heating": {"seq": [1, 2, 3, 3, 2], "loop": true},
+                    "cooling":{"seq": [1, 1, 2, 3, 2], "loop": true},
+                    "boiling": {"seq": [4, 5, 6, 7], "loop": true}
+                }
+            }
+        },
+        {
+            "Obj" : "Pot",
+            "sx": 607,
+            "sy": 170,
+            "w": 69,
+            "h": 66,
+            "imgPath": "images/pot.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "pot2",
+            "animObj" : {
+                "image": {
+                    "tileWidth": 71,
+                    "tileHeight": 66,
+                    "imgWidth": 565,
+                    "imgHeight": 66
+                },
+                "animations": {
+                    "default": {"seq":[0], "loop": false},
+                    "cold": {"seq": [0], "loop": false},
+                    "heating": {"seq": [1, 2, 3, 3, 2], "loop": true},
+                    "cooling":{"seq": [1, 1, 2, 3, 2], "loop": true},
+                    "boiling": {"seq": [4, 5, 6, 7], "loop": true}
+                }
+            }
+        },
+        {
+            "Obj" : "Pot",
+            "sx": 604,
+            "sy": 138,
+            "w": 82.6,
+            "h": 30,
+            "imgPath": "images/pan.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "pan1",
+            "animObj" : {
+                "image": {
+                    "tileWidth": 82.6,
+                    "tileHeight": 30,
+                    "imgWidth": 653,
+                    "imgHeight": 30
+                },
+                "animations": {
+                    "default": {"seq":[0], "loop": false},
+                    "cold": {"seq": [0], "loop": false},
+                    "heating": {"seq": [1, 2, 3, 3, 2], "loop": true},
+                    "cooling":{"seq": [1, 1, 2, 3, 2], "loop": true},
+                    "boiling": {"seq": [4, 5, 6, 7], "loop": true}
+                }
+            }
+        },
+        {
+            "Obj": "Plate",
+            "sx": 330,
+            "sy": 300,
+            "w": 32,
+            "h": 12,
+            "imgPath": "images/platte_hinten.png",
+            "zOrder": 5,
+            "draggable": false,
+            "name": "Plate1"
+        },
+        {
+            "Obj": "Plate",
+            "sx": 390,
+            "sy": 300,
+            "w": 32,
+            "h": 12,
+            "imgPath": "images/platte_hinten.png",
+            "zOrder": 5,
+            "draggable": false,
+            "name": "Plate2"
+        },
+        {
+            "Obj": "Plate",
+            "sx": 310,
+            "sy": 315,
+            "w": 42,
+            "h": 16,
+            "imgPath": "images/platte_vorne.png",
+            "zOrder": 5,
+            "draggable": false,
+            "name": "Plate3"
+        },
+        {
+            "Obj": "Plate",
+            "sx": 380,
+            "sy": 315,
+            "w": 42,
+            "h": 16,
+            "imgPath": "images/platte_vorne.png",
+            "zOrder": 5,
+            "draggable": false,
+            "name": "Plate4"
+        },
+        {
+            "Obj": "Door",
+            "sx": 722,
+            "sy": 219,
+            "w": 192,
+            "h": 273,
+            "imgPath": "images/kuehlschrank.png",
+            "zOrder": 30,
+            "draggable": false,
+            "name": "kühlschranktür"
+        },
+        {
+            "Obj": "Door",
+            "sx": 586,
+            "sy": 101,
+            "w": 103,
+            "h": 138,
+            "imgPath": "images/schranktuer-rechts.png",
+            "zOrder": 30,
+            "draggable": false,
+            "name": "schrank-rechts"
+        } ,
+        {
+            "Obj": "Door",
+            "sx": 483,
+            "sy": 101,
+            "w": 103,
+            "h": 138,
+            "imgPath": "images/schranktuer-links.png",
+            "zOrder": 30,
+            "draggable": false,
+            "name": "schrank-links"
+        },
+        {
+            "Obj": "Ingredient",
+            "sx": 830,
+            "sy": 370,
+            "w": 50,
+            "h": 36,
+            "imgPath": "images/gurke.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "gurke"
+        },
+        {
+            "Obj": "Ingredient",
+            "sx": 823,
+            "sy": 275,
+            "w": 66,
+            "h": 35,
+            "imgPath": "images/eier.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Eier"
+        },
+        {
+            "Obj": "Ingredient",
+            "sx": 740,
+            "sy": 366,
+            "w": 50,
+            "h": 36,
+            "imgPath": "images/tomate.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "tomate"
+        },
+        {
+            "Obj": "Button",
+            "sx": 300,
+            "sy": 338,
+            "w": 14,
+            "h": 14,
+            "imgPath": "images/knob_off.png",
+            "zOrder": 5,
+            "draggable": false,
+            "name": "Button1",
+            "plate": "Plate1",
+            "hood": "haube"
+        }
+        ,
+        {
+            "Obj": "Button",
+            "sx": 330,
+            "sy": 338,
+            "w": 14,
+            "h": 14,
+            "imgPath": "images/knob_off.png",
+            "zOrder": 5,
+            "draggable": false,
+            "name": "Button2",
+            "plate": "Plate2" ,
+            "hood": "haube"
+        } ,
+        {
+            "Obj": "Button",
+            "sx": 360,
+            "sy": 338,
+            "w": 14,
+            "h": 14,
+            "imgPath": "images/knob_off.png",
+            "zOrder": 5,
+            "draggable": false,
+            "name": "Button3",
+            "plate": "Plate3",
+            "hood": "haube"
+        } ,
+        {
+            "Obj": "Button",
+            "sx": 390,
+            "sy": 338,
+            "w": 14,
+            "h": 14,
+            "imgPath": "images/knob_off.png",
+            "zOrder": 5,
+            "draggable": false,
+            "name": "Button4",
+            "plate": "Plate4",
+            "hood": "haube"
+        } ,
+        {
+            "Obj": "Faucet",
+            "sx": 650,
+            "sy": 245,
+            "w": 52,
+            "h": 74,
+            "imgPath": "images/wasserhahn.png",
+            "zOrder": 20,
+            "draggable": false,
+            "name": "wasserhahn",
+            "animObj" : {
+                "image": {
+                    "tileWidth": 39,
+                    "tileHeight": 74,
+                    "imgWidth": 143,
+                    "imgHeight": 75
+                },
+                "animations": {
+                    "default": {"seq":[0], "loop": false},
+                    "opening": {"seq": [1, 2], "loop": true},
+                    "closing": {"seq": [0], "loop": false}
+                }
+            }
+        } ,
+        {
+            "Obj": "VideoManager",
+            "sx": 0,
+            "sy": 0,
+            "w": 163,
+            "h": 130,
+            "imgPath": "images/tv.png",
+            "zOrder": 20,
+            "draggable": false,
+            "name": "tv"
+        },
+        {
+            "Obj": "Ingredient",
+            "sx": 736,
+            "sy": 248,
+            "w": 69,
+            "h": 69,
+            "imgPath": "images/spaghetti.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Spaghetti"
+        },
+        {
+            "Obj": "Ingredient",
+            "sx": 475,
+            "sy": 283,
+            "w": 20,
+            "h": 32,
+            "imgPath": "images/salz.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Salz"
+        }
+        ,
+        {
+            "Obj": "Ingredient",
+            "sx": 496,
+            "sy": 245,
+            "w": 45,
+            "h": 79,
+            "imgPath": "images/Milch.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Milch"
+        } ,
+        {
+            "Obj": "Ingredient",
+            "sx": 545,
+            "sy": 246,
+            "w": 45,
+            "h": 77,
+            "imgPath": "images/mehl.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Mehl"
+        },
+        {
+            "Obj": "Ingredient",
+            "sx": 741,
+            "sy": 442,
+            "w": 63,
+            "h": 36,
+            "imgPath": "images/Fleisch.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Fleisch"
+        },
+        {
+            "Obj": "Ingredient",
+            "sx": 451,
+            "sy": 242,
+            "w": 24,
+            "h": 78,
+            "imgPath": "images/oel.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Oel"
+        } ,
+        {
+            "Obj": "Ingredient",
+            "sx": 820,
+            "sy": 428,
+            "w": 59,
+            "h": 52,
+            "imgPath": "images/reis.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Reis"
+        } ,
+        {
+            "Obj": "Ingredient",
+            "sx": 507,
+            "sy": 200,
+            "w": 20,
+            "h": 32,
+            "imgPath": "images/zimt.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Zimt"
+        }
+        ,
+        {
+            "Obj": "Ingredient",
+            "sx": 545,
+            "sy": 181,
+            "w": 34,
+            "h": 57,
+            "imgPath": "images/zucker.png",
+            "zOrder": 20,
+            "draggable": true,
+            "name": "Zucker"
+        }
+    ]
+}

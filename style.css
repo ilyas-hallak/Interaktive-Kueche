@@ -1,0 +1,103 @@
+div#wrapper { margin:0px auto; width:1000px; height:600px;}
+canvas {
+    border: 1px solid black;
+    background: url(images/hintergrund.png) no-repeat center;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+}
+
+.hidden{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
+.muted {
+    color: #999;
+}
+.current {
+    color: white;
+}
+#rezepte-head {
+    color: white;
+    font-size: 13px;
+    opacity: 0.9;
+    top: 123px;
+    position: absolute;
+    left: 178px;
+    font-family: 'Chalkduster';
+
+}
+ul#Rezepte-list, #Rezepte-details {
+    top: 137px;
+    position: absolute;
+    left: 160px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Chalkduster';
+    opacity: 0.9;
+}
+li:hover, button:hover {
+    cursor: pointer;
+}
+#Rezepte-details {
+    top: 149px;
+    position: absolute;
+    left: 178px;
+    width: 211px;
+    height: 300px;
+}
+#message {
+    top: 55px;
+    position: absolute;
+    left: 508px;
+    font-family: 'Chalkduster';
+    font-size: 22px;
+    color: white;
+    opacity: 0.90;
+    width: 396px;
+    word-break: break-all;
+    height: 21px;
+    overflow: hidden;
+}
+#message marquee {
+
+    margin:0;
+    padding:0;
+    font-family: 'Dot Matrix';
+}
+.pointerShow {
+    cursor: pointer;
+}
+.pointerHide {
+    cursor: default;
+}
+video {
+    position: absolute;
+    left: 537px;
+    top: 488px;
+    width: 149px;
+    height: 91px;
+}
+#HelpLayer {
+    z-index: 9999;
+    position:absolute;
+    width: 1115px;
+    height: 40px;
+}
+#HelpLayer img {
+    float: right;
+    padding-top: 10px;
+}
+#HelpLayer img:hover {
+    cursor: pointer;
+}
+#HelpLayer #helpContent img {
+    position: absolute;
+    left: 134px;
+    top: -27px;
+}
